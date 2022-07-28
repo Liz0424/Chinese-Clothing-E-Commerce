@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica", Sans-Serif;
+    background-image: url('pic_sources/background_2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    }
+
+/* heading */
+header{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-heading{
+    font-size: 50px;
+    text-transform: capitalize;
+    color:crimson;
+}
+.header-heading span{
+    color:crimson;
+}
+
+
+/* nav */
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+
+/*clothing*/
+.clothing-section{
+    position: relative;
+    padding: 60px 5vw;
+}
+.section-title{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.product-container{
+    display: list-item;
+    justify-content: space-between;
+}
+.product-card{
+    border: 15px solid #d5be8b;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.product-card:nth-child(even){
+    border-color:#190c05;
+    background:#190c05
+}
+.product-img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
